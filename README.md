@@ -79,8 +79,8 @@ Together, they form a **collaborative agent ecosystem**, where each agent’s re
 ```
 2. Clone and set up the project:
 ```bash 
-    git clone <your-repository-url>
-    cd ai-sales-insight-assistant
+    git clone https://github.com/Shalha-Mucha18/AI-Sales-Assistant.git
+    cd Ai-Aales-Assistant
 ```
 3. Install dependencies:
 ```bash

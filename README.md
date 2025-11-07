@@ -1,4 +1,4 @@
-<h1 align="center">AI Sales Assistant</h1>
+<h1 align="center">AI Sales Agent</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/CrewAI-007ACC?style=for-the-badge&logo=github" alt="CrewAI Badge" />
   <img src="https://img.shields.io/badge/LLM-FF6A00?style=for-the-badge&logo=openai" alt="LLM Badge" />

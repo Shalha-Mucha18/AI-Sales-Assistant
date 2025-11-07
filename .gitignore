@@ -8,13 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
-.env/
+.env
 
 
 # uv specific
 .uv/
 .uvcache/
 uv.lock
+
 
 # Python cache
 __pycache__/

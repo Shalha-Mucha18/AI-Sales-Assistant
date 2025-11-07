@@ -7,8 +7,8 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
 .env
+*.env
 
 
 # uv specific

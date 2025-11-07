@@ -1,3 +1,4 @@
+<h1 align="center">AI Sales Assistant</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/CrewAI-007ACC?style=for-the-badge&logo=github" alt="CrewAI Badge" />
   <img src="https://img.shields.io/badge/LLM-FF6A00?style=for-the-badge&logo=openai" alt="LLM Badge" />
@@ -6,7 +7,6 @@
   <img src="https://img.shields.io/badge/Time%20Series-0077B5?style=for-the-badge&logo=chart-line" alt="Time Series Badge" />
   <img src="https://img.shields.io/badge/Money-28A745?style=for-the-badge&logo=currency-usd" alt="Money Badge" />
 </p>
-<h1 align="center">AI Sales Assistant</h1>
 
 An **AI-powered sales intelligence prototype** that orchestrates multiple autonomous agents to analyze business data and generate **actionable insights** in real time.
 The system ingests B2B or retail sales data, performs **Descriptive**, **Diagnostic**, **Predictive**, and **Prescriptive** analytics,  producing **executive-ready recommendations** through an interactive, conversational interface.

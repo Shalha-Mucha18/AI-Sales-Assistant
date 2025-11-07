@@ -1,0 +1,9 @@
+descriptive:
+  description: Summarize performance metrics and key changes.
+  expected_output: Short descriptive summary with diagnostic insights.
+predictive:
+  description: Forecast next-month sales and highlight growth trends.
+  expected_output: Predicted sales trends across categories and regions.
+prescriptive:
+  description: Suggest business actions based on analytics and forecasts.
+  expected_output: Prioritized, actionable recommendations.

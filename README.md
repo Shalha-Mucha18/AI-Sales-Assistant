@@ -1,14 +1,20 @@
 # AI Sales Assistant
 
 An **AI-powered sales intelligence prototype** that orchestrates multiple autonomous agents to analyze business data and generate **actionable insights** in real time.
-The system ingests B2B or retail sales data, performs **Descriptive**, **Diagnostic**, **Predictive**, and **Prescriptive** analytics  producing **executive-ready recommendations** through an interactive, conversational interface.
+The system ingests B2B or retail sales data, performs **Descriptive**, **Diagnostic**, **Predictive**, and **Prescriptive** analytics,  producing **executive-ready recommendations** through an interactive, conversational interface.
 ## Overview
 This prototype demonstrates how **Agentic AI systems** can empower businesses with continuous intelligence. By connecting data analytics with autonomous reasoning agents, the assistant provides **real-time decision support**, enabling companies to:
 - Understand **what happened** in sales performance  
 - Diagnose **why it happened**  
 - Predict **what will happen next**  
-- Recommend **what actions should be taken**  
+- Recommend **what actions should be taken**
+  
 This type of system can be integrated into existing ERP, CRM, or BI dashboards to deliver **AI-driven business insights** that traditionally require manual analyst intervention.
+# 🎥 Video Demonstration
+[![AI Sales Assistant Demo](https://img.shields.io/badge/Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1nJ-RCQ5Y2O12Q1eZkkZ5pz-nUI0jneY9/view?usp=drive_link)
+*Click the badge above to watch the full demonstration video*
+
+
 ## How It Works
 Here, users upload their **sales data (CSV or Excel)** and ask natural-language queries such as:
 
@@ -17,7 +23,7 @@ Here, users upload their **sales data (CSV or Excel)** and ask natural-language 
 > “Recommend strategies to improve margins.”
 A team of specialized AI agents collaborates to analyze, reason, and respond intelligently.
 
-You can use this dataset to test purpose: https://drive.google.com/file/d/1Ee9kMYOjCWSf4pwg5HnqZi90JZcliR71/view?usp=sharing
+You can use this dataset for testing purposes: https://drive.google.com/file/d/1Ee9kMYOjCWSf4pwg5HnqZi90JZcliR71/view?usp=sharing
 
 ## 👥 The Multi-Agent System
 Each agent in the system has a **distinct role and responsibility**, coordinated through the CrewAI framework:
@@ -26,7 +32,7 @@ Each agent in the system has a **distinct role and responsibility**, coordinated
 | **Analyst Agent** | Descriptive & Diagnostic Analytics | Summarizes KPIs, trends, and performance drivers |
 | **Forecaster Agent** | Predictive Analytics | Uses statistical and ML-based forecasting for future performance |
 | **Advisor Agent** | Prescriptive Analytics | Recommends strategic actions to improve revenue and margins |
-| 🗣️ **Assistant Agent** | Conversational Orchestration | Interprets user queries, coordinates other agents, and generates final executive summaries |
+| **Assistant Agent** | Conversational Orchestration | Interprets user queries, coordinates other agents, and generates final executive summaries |
 
 Together, they form a **collaborative agent ecosystem**, where each agent’s reasoning contributes to a unified, context-aware business insight.
 ## 🚀 Key Features
@@ -60,18 +66,18 @@ Together, they form a **collaborative agent ecosystem**, where each agent’s re
 │           ├── intent.py
 │           ├── schema.py
 │           └── viz.py
-├── pyproject.toml
+├── pyproject. toml
 ├── README.md
 └── uv.lock
 ```
 ## Getting Started
-1. Install uv (if not already installed):
+1. Install UV (if not already installed):
 ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh
       # Or using pip:
       # pip install uv
 ```
-2. Clone and setup the project:
+2. Clone and set up the project:
 ```bash 
     git clone <your-repository-url>
     cd ai-sales-insight-assistant
@@ -80,7 +86,7 @@ Together, they form a **collaborative agent ecosystem**, where each agent’s re
 ```bash
     uv sync
 ```
-4. Create and Set up environment variables: via `.env`:
+4. Create and set up environment variables: via `.env`:
 ```env
   GROQ_API_KEY=your-key-here
 ```
